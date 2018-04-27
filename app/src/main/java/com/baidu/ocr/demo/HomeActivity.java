@@ -81,7 +81,7 @@ public class HomeActivity extends AppCompatActivity {
                             Log.d("result",result);
                             PlateInfo plateInfo = new Gson().fromJson(result,PlateInfo.class);
                             PlateInfo.WordsResultBean wordsResult = plateInfo.getWords_result();
-                            StringBuilder stringBuilder = new StringBuilder(wordsResult.getColor())
+                            StringBuilder stringBuilder = new StringBuilder(ColorUtils.getColor(wordsResult.getColor()))
                                     .append(wordsResult.getNumber());
                             textView.setText(stringBuilder);
                         }
