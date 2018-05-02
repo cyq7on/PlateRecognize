@@ -19,5 +19,20 @@
     <ImageView
         android:id="@+id/iv"
         android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:layout_height="280dp" />
+    <EditText
+        android:id="@+id/etTime"
+        android:hint="输入时间"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etPlace"
+        android:hint="输入地点"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etEvent"
+        android:hint="输入违章"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
